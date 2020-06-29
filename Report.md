@@ -25,6 +25,5 @@ Trong đó **wlan0** chính là tên của Wireless Adapter trong Kali Linux. Ki
 ![ifconfig wlan0mon](https://github.com/nguyencaothai/Hacking-WEP/blob/master/ipconfig.png)
 
 ### Bước 2 : Xác định access point có sử dụng WEP
-Ở bước này chúng ta có nhiều tool để lựa chọn. Đầu tiên ta sẽ sử dụng **airodump-ng**.
 ### Bước 3 : Tiến hành bắt tất cả gói tin của wifi đó
 ### Bước 4 : Tìm ra mật khẩu của wifi
