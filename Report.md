@@ -126,5 +126,13 @@ Sau khi thu thập đủ IV, trong giao diện **Log Viewer**, ta load file log 
 ![commview-convert-cap](https://github.com/nguyencaothai/Hacking-WEP/blob/master/commview-convert-pcap.png)
 
 ### Bước 4 : Tìm ra mật khẩu của wifi
-Ở bước cuối cùng này ta sẽ sử dụng aircrack và các file log đã được tạo ra từ bước thứ 3 để tìm ra được password của access point target
+Ở bước cuối cùng này ta sẽ sử dụng aircrack và các file log đã được tạo ra từ bước thứ 3 để tìm ra được password của access point target. Ta dùng câu lệnh như sau:
+
+![aircrack-linux](https://github.com/nguyencaothai/Hacking-WEP/blob/master/aircrack-linux.png)
+
+Riêng đối với commview là một công cụ trên nền tảng window, nên ta sẽ download aircrack về window, sau đó sử dụng công cụ aircrack GUI kết hợp với file log **.pcap** mà commview đã tạo ra :
+
+![aircrack-window](https://github.com/nguyencaothai/Hacking-WEP/blob/master/aircrack-window.png)
+
+![aircrack-window-result](https://github.com/nguyencaothai/Hacking-WEP/blob/master/aircrack-window-result.png)
 
