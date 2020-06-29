@@ -103,10 +103,11 @@ Khi bật CommView lên thì có giao diện như sau:
 
 ![commview](https://github.com/nguyencaothai/Hacking-WEP/blob/master/commview.png)
 
-**Bước 1**: Nhấp chuột chọn “Capture Data Packet”
-Bước 2: Trong thẻ **Rules** ta tiến hành thiết lập để commview chỉ bắt các gói tin của một access point duy nhất
+- Bước 1: Nhấp chuột chọn “Capture Data Packet”
+- Bước 2: Trong thẻ **Rules** ta tiến hành thiết lập để commview chỉ bắt các gói tin của một access point duy nhất
 
 ![commview-rules-config](https://github.com/nguyencaothai/Hacking-WEP/blob/master/commview-rules-config.png)
+
 Bước 3: Set up logging của Commview
 
 
