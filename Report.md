@@ -25,5 +25,30 @@ Trong đó **wlan0** chính là tên của Wireless Adapter trong Kali Linux. Ki
 ![ifconfig wlan0mon](https://github.com/nguyencaothai/Hacking-WEP/blob/master/ipconfig.png)
 
 ### Bước 2 : Xác định access point có sử dụng WEP
+Ở bước này, có rất nhiều tool để lựa chọn. Ta sẽ lần lượt đi qua từng tool
+#### a) airoudump-ng
+Để có thể sử  dụng tool này để quét các access point ta sử dụng câu lệnh sau :
+
+![airodump-ng wlan0mon](https://github.com/nguyencaothai/Hacking-WEP/blob/master/airodump-ng-ap.png)
+
+Ta quan sát kết quả trả về và xác định target đang sử dụng WEP
+
+![airodump-ng wlan0mon result](https://github.com/nguyencaothai/Hacking-WEP/blob/master/airodump-ng-ap-result.png)
+
+#### b) kismet
+Để chạy được tool kismet này, ta gõ câu lệnh **kismet** 
+
+![kismet-ap](https://github.com/nguyencaothai/Hacking-WEP/blob/master/kismet-ap.png)
+
+Tiếp đó, ta sử dụng một browser và truy cập vào đường link *http://localhost:2501*. Khi đó giao diện web của kismet sẽ hiện lên. Ta quan sát kết quả và xác định target
+
+![kismet-ap-result](https://github.com/nguyencaothai/Hacking-WEP/blob/master/kismet-ap-result.png)
+
+#### c) CommView
+CommView là một công cụ trên nền tảng Window. Ta có thể sử dụng CommView để xác định được các access point xung quanh nào đang sử dụng cơ chế bảo mật WEP.
+
+![commview-ap-result](https://github.com/nguyencaothai/Hacking-WEP/blob/master/commview-ap-result.png)
+
+
 ### Bước 3 : Tiến hành bắt tất cả gói tin của wifi đó
 ### Bước 4 : Tìm ra mật khẩu của wifi
