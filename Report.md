@@ -91,7 +91,7 @@ Khi ta chạy kismet ở **bước 2** để quan sát các access point xung qu
 
 ![kismet-logging-config](https://github.com/nguyencaothai/Hacking-WEP/blob/master/kismet-logging-config.png)
 
-Lưu cấu hình và chạy lại kismet như ở bước 2. Khi đó xuất hiện hai file log để lưu tất cả các gói tin mà kismet bắt được với 2 định dạng lần lượt là **.kismet** và **.pcapng**
+Lưu cấu hình và chạy lại kismet như ở bước 2. Khi đó xuất hiện hai file log để lưu tất cả các gói tin mà kismet bắt được với 2 định dạng lần lượt là **.kismet** và **.pcapng**.
 Tiếp theo ta sẽ sử dụng Wireshark đọc file **.pcapng** này và export ra một file **.pcap**
 
 ![kismet-IV-result](https://github.com/nguyencaothai/Hacking-WEP/blob/master/kismet-IV-result.png)
