@@ -7,11 +7,11 @@
 - Vấn đề ở đây là khi lượng traffic trong wireless tăng lên rất nhiều, tức là số lượng gói tin sẽ tăng lên nhiều dẫn tới việc sử dụng hết các IV. Hay nói cách khác sẽ có rất nhiều gói tin sử dụng chung một IV dẫn tới việc key stream trùng nhau.
 ## 2. Tiến hành Cracking WEP
 
-| Type of Hadware | Name | Version |
+| Type of Hadware | Name | Model/Version |
 | --- | --- | --- |
 | Operating System | Kali Linux | 2019.3 |
-| Wireless Adapter | TP-Link| Version 1.0 |
-| Access Point     | TP-Link| Version 1.0 |
+| Wireless Adapter | TP-Link| TL-WN722N/Version 1.0 |
+| Access Point     | TP-Link| TD-W8901N/Version 1.0 |
 
 
 ### Bước 1 : Tiến hành bật chế độ monitor cho Wireless Adapter
