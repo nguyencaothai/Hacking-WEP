@@ -50,5 +50,27 @@ CommView là một công cụ trên nền tảng Window. Ta có thể sử dụn
 ![commview-ap-result](https://github.com/nguyencaothai/Hacking-WEP/blob/master/commview-ap-result.png)
 
 ### Bước 3 : Bắt IV
+Trước khi thực hiện bắt các IV, ta cần đề phòng trong trường hợp lượng traffic trong mạng wireless này quá ít, tức là ta không thể thu thập đủ số lượng IV để crack được WEP. Để giải quyết vấn đề này ta sẽ sử dụng tool **aireplay** để replay các arp request. Bất cứ khi nào **aireplay** phát hiện một gói tin arp trong mạng wireless này, nó sẽ lập tức capture gói tin arp này và gửi đi gửi lại hàng loạt các gói tin arp tương tự đến cho access point. Access point một khi nhận được nó phải response một packet với một new IV. Từ đó làm gia tăng lượng traffic trong mạng cũng như số lượng IV. Tuy nhiên ta lưu ý vì lúc này ta vẫn chưa kết nối được vào access point, tức là access point sẽ "ignore" các gói tin từ wireless adapter gửi tới. Do đó bước đầu tiên ta phải thực hiện associate với access point để mà access point sẽ nhận được các packet từ wireless adapter của ta gửi tới.
+
+![aireplay-ng](https://github.com/nguyencaothai/Hacking-WEP/blob/master/aireplay.png)
+
+Trong đó :
+- -1 là fake authentication
+- -a là Mac address của access point
+- -h là Mac address của wireless adapter
+- wlan0mon là tên của wireless adapter ở monitor mode
+
+Tiếp theo ta sẽ chạy **aireplay** để mà thực hiện replay các arp request
+
+![aireplay-arp](https://github.com/nguyencaothai/Hacking-WEP/blob/master/aireplay-arp.png)
+
+Trong đó :
+- -3 là arp request replay
+- -b là Mac address của access point
+- -h là Mac address của wireless adapter
+- wlan0mon là tên của wireless adapter ở monitor mode
+
+Sau khi đã xong hai bước trên, ta tiến hành bắt IV bằng các tool airodump, kismet và CommView
+#### a) airodump
 
 ### Bước 4 : Tìm ra mật khẩu của wifi
