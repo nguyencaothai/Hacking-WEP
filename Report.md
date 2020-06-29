@@ -49,6 +49,6 @@ CommView là một công cụ trên nền tảng Window. Ta có thể sử dụn
 
 ![commview-ap-result](https://github.com/nguyencaothai/Hacking-WEP/blob/master/commview-ap-result.png)
 
+### Bước 3 : Bắt IV
 
-### Bước 3 : Tiến hành bắt tất cả gói tin của wifi đó
 ### Bước 4 : Tìm ra mật khẩu của wifi
