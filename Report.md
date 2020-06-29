@@ -15,11 +15,12 @@
 
 
 ### Bước 1 : Tiến hành bật chế độ monitor cho Wireless Adapter
+Monitor mode của wireless apdater cho phép một computer có thể capture tất cả traffic trong wireless channel mà không cần phải associate với access point.
 Để bật chế độ monitor cho Wireless Adapter sử dụng tool **airmon-ng**
 
 ![airmon-ng](https://github.com/nguyencaothai/Hacking-WEP/blob/master/image1.png)
 
-Trong đó **wlan0** chính là tên của Wireless Adapter trong Kali Linux
+Trong đó **wlan0** chính là tên của Wireless Adapter trong Kali Linux. Tiến hành kiểm tra
 ### Bước 2 : Xác định wifi đang sử dụng loại bảo mật WEP
 Ở bước này chúng ta có nhiều tool để lựa chọn. Đầu tiên ta sẽ sử dụng airodump-ng.
 ### Bước 3 : Tiến hành bắt tất cả gói tin của wifi đó
