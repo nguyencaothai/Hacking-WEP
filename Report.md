@@ -103,7 +103,7 @@ Khi bật CommView lên thì có giao diện như sau:
 
 ![commview](https://github.com/nguyencaothai/Hacking-WEP/blob/master/commview.png)
 
-- Bước 1: Nhấp chuột chọn “Capture Data Packet”
+- Bước 1 : Nhấp chuột chọn “Capture Data Packet”
 - Bước 2: Trong thẻ **Rules** ta tiến hành thiết lập để commview chỉ bắt các gói tin của một access point duy nhất. Ở đây là access point đang sử dụng WEP
 
 ![commview-rules-config](https://github.com/nguyencaothai/Hacking-WEP/blob/master/commview-rules-config.png)
@@ -112,12 +112,10 @@ Khi bật CommView lên thì có giao diện như sau:
 
 ![commview-logging-config](https://github.com/nguyencaothai/Hacking-WEP/blob/master/commview-logging-config.png)
 
-Trong đó :
-- Maximum directory size : Tổng dung lượng của các file log chứa trong folder LOGS mặc định của CommView. Nếu vượt quá dung lượng này thì CommView sẽ tiến hành xóa các file log cũ.
-- Average log file size : Kích thước xấp xỉ của một file log.
+Maximum directory size : Tổng dung lượng của các file log chứa trong folder LOGS mặc định của CommView. Nếu vượt quá dung lượng này thì CommView sẽ tiến hành xóa các file log cũ. Average log file size : Kích thước xấp xỉ của một file log.
 Ta nên chọn kích thước file log tối đa là 100MB để hạn chế việc có quá nhiều file log và sẽ gây vất vả trong việc chuyển đổi file .cap sau này.
 - Bước 4 : Thiết lập channel phù hợp với access point target.
-- Bước 5 : Click vào "Start Caputre"
+-Bước 5 : Click vào "Start Caputre"
 
 ![commview-IV-result](https://github.com/nguyencaothai/Hacking-WEP/blob/master/commview-IV-result.png)
 
