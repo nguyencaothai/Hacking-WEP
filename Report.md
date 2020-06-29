@@ -20,7 +20,10 @@ Monitor mode của wireless apdater cho phép một computer có thể capture t
 
 ![airmon-ng](https://github.com/nguyencaothai/Hacking-WEP/blob/master/image1.png)
 
-Trong đó **wlan0** chính là tên của Wireless Adapter trong Kali Linux. Tiến hành kiểm tra
+Trong đó **wlan0** chính là tên của Wireless Adapter trong Kali Linux. Kiểm tra chế độ monitor bằng **ifconfig wlan0mon**
+
+![ifconfig wlan0mon](https://github.com/nguyencaothai/Hacking-WEP/blob/master/ipconfig.png)
+
 ### Bước 2 : Xác định wifi đang sử dụng loại bảo mật WEP
 Ở bước này chúng ta có nhiều tool để lựa chọn. Đầu tiên ta sẽ sử dụng airodump-ng.
 ### Bước 3 : Tiến hành bắt tất cả gói tin của wifi đó
