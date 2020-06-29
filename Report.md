@@ -84,7 +84,18 @@ Trong đó :
 
 ![airodump-ng-IV-result](https://github.com/nguyencaothai/Hacking-WEP/blob/master/airodump-ng-IV-result.png)
 
+Ta thấy airodump đã xuất ra một file log có định dạng là **.cap**
+
 #### b) kismet
 Khi ta chạy kismet ở **bước 2** để quan sát các access point xung quanh thì ngay lúc này kismet cũng đã bắt đầu thu thập toàn bộ các packet của tất cả các access point xung quanh nó bất kể access point đó đang dùng cơ chế bảo mật gì. Tuy nhiên file log của kismet để lưu trữ các packet này có định dạng là **.kismet** và định dạng này không thể làm việc được với các tool khác. Do đó ta cần cấu hình cho kismet sẽ lưu file log dưới dạng **.pcapng**. Ta tiến hành cấu hình trong **/etc/kismet/kismet_logging.conf**
+
+![kismet-logging-config](https://github.com/nguyencaothai/Hacking-WEP/blob/master/kismet-logging-config.png)
+
+Lưu cấu hình và chạy lại kismet như ở bước 2. Khi đó xuất hiện hai file log để lưu tất cả các gói tin mà kismet bắt được với 2 định dạng lần lượt là **.kismet** và **.pcapng**
+Tiếp theo ta sẽ sử dụng Wireshark đọc file **.pcapng** này và export ra một file **.pcap**
+
+![kismet-IV-result](https://github.com/nguyencaothai/Hacking-WEP/blob/master/kismet-IV-result.png)
+
+![kismet-convert-pcap](https://github.com/nguyencaothai/Hacking-WEP/blob/master/kismet-convert-pcap.png)
 
 ### Bước 4 : Tìm ra mật khẩu của wifi
