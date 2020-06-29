@@ -1,5 +1,5 @@
 # CRACKING WEP
-## 1. Các thức hoạt động của WEP
+## 1. Cách thức hoạt động của WEP
 - Mỗi gói tin gửi đi sẽ được mã hóa bằng một key stream riêng biệt.
 - Key stream này được tạo ra bằng cách kết hợp một IV (Initialization vector) 24 bit với password (dùng để đăng nhập vào wifi) 40 bit.
 - Khi gói tin được mã hóa xong thì trước khi gửi đi, gói tin ấy sẽ được đính kèm IV ở dạng plaintext vào và cuối cùng là gửi đi đến AP.
@@ -14,9 +14,9 @@
 | Access Point     | TP-Link| TD-W8901N/Version 1.0 |
 
 
-### Bước 1 : Tiến hành bật chế độ monitor cho Wireless Adapter
+### Bước 1 : Bật chế độ monitor cho Wireless Adapter
 Monitor mode của wireless apdater cho phép một computer có thể capture tất cả traffic trong wireless channel mà không cần phải associate với access point.
-Để bật chế độ monitor cho Wireless Adapter sử dụng tool **airmon-ng**
+Để bật chế độ monitor cho Wireless Adapter ta sử dụng tool **airmon-ng**
 
 ![airmon-ng](https://github.com/nguyencaothai/Hacking-WEP/blob/master/image1.png)
 
