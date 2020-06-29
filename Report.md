@@ -72,5 +72,14 @@ Trong đó :
 
 Sau khi đã xong hai bước trên, ta tiến hành bắt IV bằng các tool airodump, kismet và CommView
 #### a) airodump
+Để tiến hành bắt IV với airodump, ta chạy câu lệnh sau đây 
+
+![airodump-ng-IV](https://github.com/nguyencaothai/Hacking-WEP/blob/master/airodump-ng_IV.png)
+
+Trong đó :
+- --bssid là Mac address của acess point
+- --channel là channel mà access point đang hoạt động
+- --write là file để lưu các gói tin IV
+- wlan0mon là tên của wireless adapter ở monitor mode
 
 ### Bước 4 : Tìm ra mật khẩu của wifi
