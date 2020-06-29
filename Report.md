@@ -123,4 +123,6 @@ Ta nên chọn kích thước file log tối đa là 100MB để hạn chế vi�
 
 Sau khi thu thập đủ IV, tron giao diện **Log Viewer**, ta load file log của commview lên. Sau đó ta tiến hành xuất các files log đang ở định **.ncf** ra thành file **.cap**
 
+![commview-convert-cap](https://github.com/nguyencaothai/Hacking-WEP/blob/master/commview-convert-pcap.png)
+
 ### Bước 4 : Tìm ra mật khẩu của wifi
