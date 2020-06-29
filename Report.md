@@ -16,9 +16,6 @@
 
 ### Bước 1 : Tiến hành bật chế độ monitor cho Wireless Adapter
 Để bật chế độ monitor cho Wireless Adapter sử dụng tool **airmon-ng**
-
-![airmon-ng](https://github.com/nguyencaothai/Hacking-WEP/blob/master/image.png)
-
 Trong đó **wlan0** chính là tên của Wireless Adapter trong Kali Linux
 ### Bước 2 : Xác định wifi đang sử dụng loại bảo mật WEP
 Ở bước này chúng ta có nhiều tool để lựa chọn. Đầu tiên ta sẽ sử dụng airodump-ng.
