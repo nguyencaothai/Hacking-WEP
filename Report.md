@@ -117,7 +117,7 @@ Khi bật CommView lên thì có giao diện như sau:
 Maximum directory size : Tổng dung lượng của các file log chứa trong folder LOGS mặc định của CommView. Nếu vượt quá dung lượng này thì CommView sẽ tiến hành xóa các file log cũ. Average log file size : Kích thước xấp xỉ của một file log.
 Ta nên chọn kích thước file log tối đa là 100MB để hạn chế việc có quá nhiều file log và sẽ gây vất vả trong việc chuyển đổi file .cap sau này.
 - Bước 4 : Thiết lập channel phù hợp với access point target.
--Bước 5 : Click vào "Start Caputre"
+- Bước 5 : Click vào "Start Caputre"
 
 ![commview-IV-result](https://github.com/nguyencaothai/Hacking-WEP/blob/master/commview-IV-result.png)
 
