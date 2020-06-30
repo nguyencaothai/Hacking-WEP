@@ -1,4 +1,10 @@
 # CRACKING WEP
+
+| Họ và tên | MSSV |
+| --- | --- |
+| Nguyễn Cao Thái | 17521030 |
+| Huỳnh Minh Hiếu | 17520470 |
+
 ## 1. Cách thức hoạt động của WEP
 - Mỗi gói tin gửi đi sẽ được mã hóa bằng một key stream riêng biệt.
 - Key stream này được tạo ra bằng cách kết hợp một IV (Initialization vector) 24 bit với password (dùng để đăng nhập vào wifi) 40 bit.
